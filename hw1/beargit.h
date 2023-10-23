@@ -1,3 +1,5 @@
+
+
 int beargit_init(void);
 int beargit_add(const char* filename);
 int beargit_rm(const char* filename);
@@ -12,3 +14,4 @@ int beargit_log();
 #define FILENAME_SIZE 512
 #define COMMIT_ID_SIZE (COMMIT_ID_BYTES+1)
 #define MSG_SIZE 512
+
